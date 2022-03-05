@@ -1,0 +1,21 @@
+{
+  "home": {
+    "topMenu": [
+      {
+        "name": "菜单",
+        "uri": "/home"
+      },
+      {
+        "name": "二级菜单",
+        "childList": [
+          {
+            "name": "二级菜单",
+            "uriType": "redirect",
+            "uri": "/product"
+          }
+        ]
+      }
+    ]
+  }
+}
+

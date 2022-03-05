@@ -1,0 +1,59 @@
+{
+  "name": "xs-tech-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --mode dev",
+    "build": "vue-cli-service build --mode prod",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@kangc/v-md-editor": "^2.3.13",
+    "ant-design-vue": "^3.0.0-alpha.15",
+    "axios": "^0.21.1",
+    "babel-plugin-prismjs": "^2.1.0",
+    "core-js": "^3.6.5",
+    "jsencrypt": "^3.2.1",
+    "less": "^4.1.1",
+    "less-loader": "6.0.0",
+    "md5": "^2.3.0",
+    "vue": "^3.0.0",
+    "vue-router": "4",
+    "vxe-table": "^4.1.18",
+    "webpack": "^5.51.1",
+    "xe-utils": "^3.5.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "style-resources-loader": "^1.4.1",
+    "vue-cli-plugin-style-resources-loader": "~0.1.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-async-promise-executor": "off",
+      "no-cond-assign": 2
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
